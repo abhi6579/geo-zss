@@ -1,0 +1,23 @@
+dataset:
+  name: DOTA
+  root: data/DOTA
+  num_classes: 18
+  classes: [plane, ship, storage_tank, baseball_diamond, tennis_court,
+            basketball_court, ground_track_field, harbor, bridge,
+            large_vehicle, small_vehicle, helicopter, roundabout,
+            soccer_ball_field, swimming_pool, container_crane,
+            airport, helipad]
+  ignore_index: 255
+
+model:
+  clip: ViT-L/14
+  sam_checkpoint: checkpoints/sam_vit_h.pth
+
+geoprompt:
+  strategy: ensemble
+  patch_size: 32
+  stride: 16
+
+evaluation:
+  max_images: null
+  output_dir: results/dota
