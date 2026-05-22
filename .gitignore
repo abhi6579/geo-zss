@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+checkpoints/
+data/
+*.pth
+*.pt
+wandb/
+.DS_Store
+*.egg-info/
+tezt.py
