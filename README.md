@@ -1,6 +1,6 @@
 # GeoPrompt: Zero-Shot Semantic Segmentation for Satellite Imagery
 
-**M.Tech Minor Project · NIMS University · Abhinav Mishra · 2025-26**
+**Abhinav Mishra · 2025-26**
 
 A systematic prompt engineering framework that improves zero-shot semantic segmentation of satellite imagery using CLIP and SAM, without any labeled training data.
 
